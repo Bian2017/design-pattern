@@ -8,6 +8,15 @@ module.exports = {
     path: __dirname,
     filename: './dist/bundle.js',
   },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        loader: 'babel-loader',
+      },
+    ],
+  },
   devServer: {
     contentBase: path.join(__dirname, './dist'),
     // 自动打开浏览器

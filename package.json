@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/Bian2017/design-pattern#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-block-scoping": "^7.14.4",
+    "@babel/plugin-transform-classes": "^7.14.4",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
