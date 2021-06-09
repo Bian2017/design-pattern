@@ -1,0 +1,27 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "设计模式",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config ./webpack.dev.config.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bian2017/design-pattern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bian2017/design-pattern/issues"
+  },
+  "homepage": "https://github.com/Bian2017/design-pattern#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
